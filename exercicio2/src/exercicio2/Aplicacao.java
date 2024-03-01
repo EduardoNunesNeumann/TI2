@@ -30,7 +30,7 @@ public class Aplicacao {
                     }
                     break;
                 case 2:
-                    // Lógica para listar usuários
+                    
                     List<Usuario> usuarios = usuarioDAO.get();
                     for (Usuario u : usuarios) {
                         System.out.println(u.toString());
